@@ -6,3 +6,7 @@ def f_cd(alpha_cc, f_ck_cyl, gamma_c=1.5):
     :return: Bemessungswert der Betondruckfestigkeit
     """ 
     return alpha_cc * (f_ck_cyl/ gamma_c)
+
+
+def hello():
+    print("Hello from mats_beton.py")
